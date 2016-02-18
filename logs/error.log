@@ -26284,3 +26284,193 @@ Stack Trace:
 #1 {main}
 
 
+2016-02-18 10:38:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:38:18 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in [/var/www/html/value_rate/src/Controller/UsersController.php, line 646]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 10:38:18 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ',' or ';'
+Request URL: /value_rate/users/userlogin
+Stack Trace:
+#0 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/v...', 646)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 10:38:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:38:31 Error: Fatal Error (256): [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /var/www/html/value_rate/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager))
+#6 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(356): Cake\Controller\Controller->createView()
+#7 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(337): Cake\Error\ExceptionRenderer->_outputMessageSafe('error500')
+#8 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(194): Cake\Error\ExceptionRenderer->_outputMessage('missingControll...')
+#9 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ErrorHandler.php(144): Cake\Error\ExceptionRenderer->render()
+#10 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(173): Cake\Error\ErrorHandler->_displayException(Object(Cake\Routing\Exception\MissingControllerException))
+#11 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(157): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Routing\Exception\MissingControllerException))
+#12 [internal function]: Cake\Error\BaseErrorHandler->wrapAndHandleException(Object(Cake\Routing\Exception\MissingControllerException))
+#13 {main} in [/var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ErrorHandler.php, line 156]
+
+
+2016-02-18 10:38:31 Error: Fatal Error (256): [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /var/www/html/value_rate/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager))
+#6 /var/www/html/value_rate/v in [/var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ErrorHandler.php, line 156]
+
+
+2016-02-18 10:38:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:38:35 Error: Fatal Error (256): [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /var/www/html/value_rate/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager))
+#6 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(356): Cake\Controller\Controller->createView()
+#7 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(337): Cake\Error\ExceptionRenderer->_outputMessageSafe('error500')
+#8 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(194): Cake\Error\ExceptionRenderer->_outputMessage('missingControll...')
+#9 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ErrorHandler.php(144): Cake\Error\ExceptionRenderer->render()
+#10 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(173): Cake\Error\ErrorHandler->_displayException(Object(Cake\Routing\Exception\MissingControllerException))
+#11 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(157): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Routing\Exception\MissingControllerException))
+#12 [internal function]: Cake\Error\BaseErrorHandler->wrapAndHandleException(Object(Cake\Routing\Exception\MissingControllerException))
+#13 {main} in [/var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ErrorHandler.php, line 156]
+
+
+2016-02-18 10:38:35 Error: Fatal Error (256): [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /var/www/html/value_rate/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /var/www/html/value_rate/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager))
+#6 /var/www/html/value_rate/v in [/var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/ErrorHandler.php, line 156]
+
+
+2016-02-18 10:38:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:38:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:38:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /value_rate/css/test.php.css
+Stack Trace:
+#0 /var/www/html/value_rate/webroot/index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-18 10:38:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:38:50 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in [/var/www/html/value_rate/src/Controller/UsersController.php, line 646]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2016-02-18 10:38:50 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ',' or ';'
+Request URL: /value_rate/users/userlogin
+Stack Trace:
+#0 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/v...', 646)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 10:41:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:41:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:41:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:41:38 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /value_rate/users/login
+Stack Trace:
+#0 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /var/www/html/value_rate/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /var/www/html/value_rate/vendor/cakephp/cakephp/src/ORM/Query.php(173): Cake\ORM\Table->schema()
+#9 /var/www/html/value_rate/vendor/cakephp/cakephp/src/ORM/Query.php(131): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\AdminsTable))
+#10 /var/www/html/value_rate/vendor/cakephp/cakephp/src/ORM/Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\AdminsTable))
+#11 /var/www/html/value_rate/vendor/cakephp/cakephp/src/ORM/Table.php(931): Cake\ORM\Table->query()
+#12 /var/www/html/value_rate/src/Controller/UsersController.php(94): Cake\ORM\Table->find('all', Array)
+#13 [internal function]: App\Controller\UsersController->login()
+#14 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#15 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 /var/www/html/value_rate/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#17 /var/www/html/value_rate/webroot/index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2016-02-18 10:42:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:42:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:42:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:42:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /value_rate/webroot/js/Datatables/tools/swf/copy_csv_xls_pdf.swf
+Stack Trace:
+#0 /var/www/html/value_rate/webroot/index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-18 10:42:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:42:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:42:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-02-18 10:42:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /value_rate/webroot/js/Datatables/tools/swf/copy_csv_xls_pdf.swf
+Stack Trace:
+#0 /var/www/html/value_rate/webroot/index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-18 10:42:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /value_rate/webroot/js/Datatables/tools/swf/copy_csv_xls_pdf.swf
+Stack Trace:
+#0 /var/www/html/value_rate/webroot/index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-18 10:42:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /value_rate/webroot/js/Datatables/tools/swf/copy_csv_xls_pdf.swf
+Stack Trace:
+#0 /var/www/html/value_rate/webroot/index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
