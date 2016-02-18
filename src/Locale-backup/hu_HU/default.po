@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Manage CMS Pages"
+msgstr "Kezelése CMS Oldalak"
+
+msgid "CMS Pages"
+msgstr "CMS Oldalak"
+
+msgid "CMS Management"
+msgstr "CMS menedzsment"
+
+msgid "Contact Requests"
+msgstr "Kapcsolat kérések"
+
+
+msgid "Content Management"
+msgstr "Content menedzsment"
+
+msgid "Dashboard"
+msgstr "Muszerfal"
+
+msgid "Email Template"
+msgstr "E-mail sablon"
+
+
+msgid "Manage Users"
+msgstr "felhasználók kezelése"
+
+msgid "Users"
+msgstr "felhasználók"
+
+msgid "Welcome"
+msgstr "Fogadtatás"
+
+msgid "Sitter Guide"
+msgstr "sitter útmutató"

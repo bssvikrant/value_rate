@@ -1,0 +1,46 @@
+msgid "Manage CMS Pages"
+msgstr "Gestisci Pagine CMS"
+
+
+msgid "CMS Pages"
+msgstr "Pagine CMS"
+
+
+msgid "CMS Management"
+msgstr "Gestione CMS"
+
+
+msgid "Contact Requests"
+msgstr "Contatti Richieste"
+
+
+msgid "Content Management"
+msgstr "Gestione dei contenuti"
+
+
+msgid "Dashboard"
+msgstr "Cruscotto"
+
+
+msgid "Email Template"
+msgstr "modello di email"
+
+
+msgid "Manage Users"
+msgstr "Gestisci utenti"
+
+
+msgid "Users"
+msgstr "utenti"
+
+
+msgid "Welcome"
+msgstr "Ben arrivata"
+
+
+msgid "Sitter Guide"
+msgstr "sitter Guida"
+
+
+msgid "Sitter.Guide"
+msgstr "sitter.Guida"

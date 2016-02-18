@@ -1,0 +1,6 @@
+{
+    "require": {
+        "hybridauth/hybridauth": "~2.5.0",
+        "cakephp/migrations": "@stable"
+    }
+}

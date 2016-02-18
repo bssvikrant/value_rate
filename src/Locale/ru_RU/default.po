@@ -1,0 +1,46 @@
+msgid "Manage CMS Pages"
+msgstr "Управление CMS Страницы"
+
+
+msgid "CMS Pages"
+msgstr "CMS Страницы"
+
+
+msgid "CMS Management"
+msgstr "Управление CMS"
+
+
+msgid "Contact Requests"
+msgstr "Связаться просит"
+
+
+msgid "Content Management"
+msgstr "Управление содержанием"
+
+
+msgid "Dashboard"
+msgstr "Панель приборов"
+
+
+msgid "Email Template"
+msgstr "E-mail шаблона"
+
+
+msgid "Manage Users"
+msgstr "Управление пользователями"
+
+
+msgid "Users"
+msgstr "пользователями"
+
+
+msgid "Welcome"
+msgstr "Добро пожаловат"
+
+
+msgid "Sitter Guide"
+msgstr "Руководство Ситтера"
+
+
+msgid "Sitter.Guide"
+msgstr "Руководство.Ситтера"

@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Manage CMS Pages"
+msgstr "Gestionați pagini CMS"
+
+msgid "CMS Pages"
+msgstr "pagini CMS"
+
+msgid "CMS Management"
+msgstr "Managementul CMS"
+
+msgid "Contact Requests"
+msgstr "Cereri Contact"
+
+
+msgid "Content Management"
+msgstr "Management de continut"
+
+msgid "Dashboard"
+msgstr "Bord"
+
+msgid "Email Template"
+msgstr "Format e-mail"
+
+
+msgid "Manage Users"
+msgstr "Gestionați utilizatorilor"
+
+msgid "Users"
+msgstr "utilizatorilor"
+
+msgid "Welcome"
+msgstr "Bine ati venit"
+
+msgid "Sitter Guide"
+msgstr "sitter Ghid"

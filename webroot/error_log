@@ -1,0 +1,217 @@
+[13-Jan-2016 06:13:28 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[13-Jan-2016 06:13:37 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[13-Jan-2016 09:53:07 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[13-Jan-2016 09:53:14 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[13-Jan-2016 12:19:06 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/s0laris/public_html/valuerate_dev/src/Template/Users/edit_user.ctp on line 134
+[13-Jan-2016 12:20:54 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/s0laris/public_html/valuerate_dev/src/Template/Users/edit_user.ctp on line 134
+[15-Jan-2016 12:38:49 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[15-Jan-2016 12:40:49 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[15-Jan-2016 14:01:13 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[15-Jan-2016 14:01:13 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[15-Jan-2016 14:01:30 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[15-Jan-2016 14:01:30 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[15-Jan-2016 14:02:08 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[15-Jan-2016 14:02:09 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[15-Jan-2016 14:02:13 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[15-Jan-2016 14:02:14 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[15-Jan-2016 14:02:16 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[15-Jan-2016 14:02:16 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[18-Jan-2016 12:46:20 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[19-Jan-2016 05:49:54 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/s0laris/public_html/valuerate_dev/src/Controller/UsersController.php on line 502
+[19-Jan-2016 05:49:57 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/s0laris/public_html/valuerate_dev/src/Controller/UsersController.php on line 502
+[19-Jan-2016 05:50:01 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/s0laris/public_html/valuerate_dev/src/Controller/UsersController.php on line 502
+[19-Jan-2016 05:50:03 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/s0laris/public_html/valuerate_dev/src/Controller/UsersController.php on line 502
+[19-Jan-2016 05:50:59 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/s0laris/public_html/valuerate_dev/src/Controller/UsersController.php on line 502
+[21-Jan-2016 09:53:36 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[21-Jan-2016 10:54:44 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[22-Jan-2016 05:20:35 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[22-Jan-2016 06:32:31 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[22-Jan-2016 10:32:42 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[22-Jan-2016 10:33:31 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[22-Jan-2016 10:36:53 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[01-Feb-2016 12:20:50 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[05-Feb-2016 06:55:10 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[05-Feb-2016 06:56:21 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[10-Feb-2016 10:17:30 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[12-Feb-2016 06:33:09 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
+[12-Feb-2016 06:34:06 UTC] PHP Fatal error:  [Cake\View\Exception\MissingHelperException] Helper class ListPageHelper could not be found.
+#0 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('ListPage', NULL)
+#1 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(1002): Cake\Core\ObjectRegistry->load('ListPage', Array)
+#2 /home/s0laris/public_html/valuerate_dev/src/View/AppView.php(29): Cake\View\View->loadHelper('ListPage')
+#3 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/View.php(336): App\View\AppView->initialize()
+#4 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewBuilder.php(350): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(119): Cake\View\ViewBuilder->build(Array, Object(Cake\Network\Request), Obj in /home/s0laris/public_html/valuerate_dev/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 156
