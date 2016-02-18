@@ -642,7 +642,7 @@ class UsersController extends AppController
 			if (!$userData->errors()){
 				//Upload user image
 				//Save user data
-				echo count($query)
+				echo count($query); 
                 if(count($query))
               {
 	                echo $query ;die();
