@@ -38,13 +38,9 @@
 			</div>
 		</div>
 		<hr style="width: 100%; color: black; height: 1px; background-color:black;" />
-		<?php } } else { echo "<h5 class='text-center' > No Team Member Added</h5>
+		<?php } } else { echo "<h5 class='text-center' > No Executive Summary Added</h5>
 		<hr style='width: 100%; color: black; height: 1px; background-color:black;' />"; } ?>
 	</div>
-			<div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-				<button type="button"  class="btn btn-primary" onclick="window.history.go(-1);"  >Cancel</button>
-				<button id="send" type="submit" class="btn btn-success">Submit</button>
-			</div>
 			<?php echo $this->form->end(); ?>
 		<!-- end form -->
 	</div>
