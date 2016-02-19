@@ -1,6 +1,7 @@
 <?php //echo "<pre>";print_r($userInfo); echo "</pre>";
 if($dataCheck=='datafound'){ 
 ?>
+
     <!--[Inner Content Area Start]-->
     <section class="inner-cont-2">
         <!--inner banner start-->
@@ -98,6 +99,7 @@ if($dataCheck=='datafound'){
 
                         <!--/Mid Profile Left-->
 					<?php echo $this->element('homeElements/rightSidebar'); ?>
+                    <?php include('inc.modal.addrating.php'); ?>
                 </div>
                 </div>
 

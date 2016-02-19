@@ -904,6 +904,55 @@ class HomeController extends AppController
 		$this->viewBuilder()->layout('frontend');
 		
 	}
+
+	/**
+	* function for adding executive summary rating
+	*/
+	public function executiveSummaryRating() {
+
+		$ExecutiveRatingsModel = TableRegistry::get('ExecutiveRatings');
+
+		if (isset($this->request->data) && !empty($this->request->data)) {
+			$findRating = $ExecutiveRatingsModel->find('all')
+					->where(['executive_id' => $this->request->data['executive_id'], 'user_id' => $this->request->data['user_id']])
+					->toArray();
+			if(count($findRating)){
+				$this->request->data['id'] = $findRating[0]->id;
+			}
+			
+			$ratingData = $ExecutiveRatingsModel->newEntity($this->request->data);
+			if ($ExecutiveRatingsModel->save($ratingData)) {
+
+				echo json_encode(array('message'=>"Rating Saved Successfully"));
+
+			} else {
+				echo json_encode(array('message'=>"Something Went Wrong Try again later"));
+			}
+			die;
+		}
+	}
+
+
+	/**
+	* function for get executive summary rating
+	*/
+	public function getExecutiveSummaryRating() {
+
+		$ExecutiveRatingsModel = TableRegistry::get('ExecutiveRatings');
+
+		if (isset($this->request->data) && !empty($this->request->data)) {
+			$findRating = $ExecutiveRatingsModel->find('all')
+					->where(['executive_id' => $this->request->data['executive_id'], 'user_id' => $this->request->data['user_id']])
+					->toArray();
+			if(count($findRating)){
+				echo json_encode(array('message'=>"Rating Found", 'executiveData'=>$findRating));
+			} else {
+				echo json_encode(array('message'=>"No Record Found"));
+			}
+			die;
+		}
+	}
+
 	
 }
 ?>

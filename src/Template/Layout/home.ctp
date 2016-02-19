@@ -30,7 +30,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<?php echo $this->Html->script(['Home/bootstrap.js', 'Home/bootstrap.min.js', ]); ?>
+	<?php echo $this->Html->script(['Home/bootstrap.min.js', ]); ?>
 	<?php //echo $this->Html->script(['Home/bootstrap.js', 'Home/bootstrap.min.js', 'Home/npm.js']); ?>
     <!--script src="js/docs.min.js"></script-->
 	<script src="http://1000hz.github.io/bootstrap-validator/dist/validator.min.js"></script>
@@ -38,3 +38,57 @@
     <!--script src="js/ie10-viewport-bug-workaround.js"></script-->
   </body>
 </html>
+<?php 
+  $session = $this->request->session();
+  $userData  = $session->read('User');
+?>
+<script type="text/javascript">
+// Template/Layout/home.ctp
+// Code for adding rating to exicutive summaries 
+$(document).ready(function(){
+
+  var userId = "<?php echo $userData['id']; ?>";
+  var executiveId;
+  $('.ratingmodal').click(function(e){
+
+    executiveId = $(this).attr('exeicutive-id');
+    var exeData = {executive_id:executiveId, user_id:userId};
+
+    $.ajax({
+      url : "<?php echo HTTP_ROOT; ?>/home/get-executive-summary-rating",
+      method : 'POST',
+      data : exeData,
+      success : function (result) {
+        var resultData = $.parseJSON(result);
+        if (resultData.message == 'Rating Found') {
+
+          $('#executiverating-rating').val(resultData.executiveData[0].rating);
+          $('#executiverating-note').val(resultData.executiveData[0].note);
+
+        }
+      }
+
+    });
+  });
+
+
+  $('#submitRating').click(function(e){
+
+    var rating = $('#executiverating-rating').val();
+    var note = $('#executiverating-note').val();
+    var data = {executive_id:executiveId, user_id:userId, rating:rating, note:note};
+
+    $.ajax({
+      url : "<?php echo HTTP_ROOT; ?>/home/executive-summary-rating",
+      method : 'POST',
+      data : data,
+      success : function (result) {
+        console.log(result); 
+      }
+    });
+
+  });
+
+
+});
+</script>
