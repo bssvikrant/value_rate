@@ -10,8 +10,22 @@
 		<div class="col-md-12 col-sm-12 col-xs-12">
 			<div class="x_panel">
 				<div class="x_title">
-					<h2>Add Investment<small></small></h2>
+					<h2>Share Investment<small></small></h2>
 					<div class="clearfix"></div>
+					<?php 
+							$session = $this->request->session();
+							$errorMsg = $session->read('success');
+							if(strlen($errorMsg))
+							{
+
+						?>
+							<div class="alert alert-danger">
+								<?php echo $errorMsg; ?>
+							</div>
+							<?php
+
+							}
+							?>
 				</div>
 				<div class="x_content">
 					<?= $this->element('adminElements/validations'); ?>

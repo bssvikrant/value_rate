@@ -617,11 +617,11 @@ class UsersController extends AppController
 		$main_arr = array('user_id'=>$userId);
 		$this->set('main_arr',$main_arr);
 }
-
      function shareInvestments($id = NULL){
 		    $this->viewBuilder()->layout('admin_dashboard');
 			$id=convert_uudecode(base64_decode($id));
-		//Load Users model
+		//Load Users mod$session = $this->request->session();
+							
 	      	$UsersModel = TableRegistry::get("Users");
 		//CODE FOR MULTILIGUAL START
 		     $session = $this->request->session();
@@ -635,25 +635,25 @@ class UsersController extends AppController
                 $email = $this->request->data['Users']['email'];
 								
 			    $userData = $UsersModel->newEntity($this->request->data['Users'],['validate' => true, 'associated' => ['UserDetails','UserExecutiveSummaries']]);  
-				//echo "<pre>"; print_r($userData); die();
+				
 				$query = $UsersModel->find('all')->where(['Users.email' => $email])->toArray();
-				//echo "<pre>"; print_r($query); die();		
-				//echo $userData; die();
+				
 			if (!$userData->errors()){
-				//Upload user image
-				//Save user data
-				echo count($query); 
+				
+				$uid=$session->read('success');
+                print_r($uid);
                 if(count($query))
-              {
-	                echo $query ;die();
-                }
-else
-{
+               {
+               	    
+	               echo  $this->displaySuccessMessage("Email is already exists");
+               }
+				else
+				{
 					if($UsersModel->save($userData)){
-					$this->displaySuccessMessage("New user have been added Successfully");
-				return $this->redirect(['controller' => 'users', 'action' => 'users-listing']);
-				}	
-}
+						$this->displaySuccessMessage("New user have been added Successfully");
+						return $this->redirect(['controller' => 'users', 'action' => 'users-listing']);
+					}	
+				}
 
 			}else{
 				//Set errors
