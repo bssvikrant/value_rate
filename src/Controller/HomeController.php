@@ -111,6 +111,7 @@ class HomeController extends AppController
 					$session->write('User.date_added', $getValidUserData->date_added);
 					$session->write('User.last_login', $getValidUserData->last_login);
 					$session->write('User.status', $getValidUserData->status);
+					$session->write('User.type', $getValidUserData->type);
 					
 					return $this->redirect(['controller' => 'Home', 'action' => 'public-profile']);
 					//return $this->redirect(['controller' => 'Home', 'action' => 'public-profile',$getValidUserData->id]);
