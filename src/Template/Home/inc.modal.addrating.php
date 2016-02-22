@@ -8,6 +8,8 @@
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Add Rating For This Summary</h4>
         </div>
+        <div id="rating">
+        </div>
         <div class="modal-body">
 			<div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
 			<?php 

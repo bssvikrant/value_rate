@@ -46,14 +46,14 @@
 // Template/Layout/home.ctp
 // Code for adding rating to exicutive summaries 
 $(document).ready(function(){
-
   var userId = "<?php echo $userData['id']; ?>";
+  //alert(userId);
   var executiveId;
   $('.ratingmodal').click(function(e){
-
     executiveId = $(this).attr('exeicutive-id');
+    //alert(executiveId);
     var exeData = {executive_id:executiveId, user_id:userId};
-
+    //console.log(exeData);
     $.ajax({
       url : "<?php echo HTTP_ROOT; ?>/home/get-executive-summary-rating",
       method : 'POST',
@@ -70,8 +70,6 @@ $(document).ready(function(){
 
     });
   });
-
-
   $('#submitRating').click(function(e){
 
     var rating = $('#executiverating-rating').val();
@@ -82,13 +80,22 @@ $(document).ready(function(){
       url : "<?php echo HTTP_ROOT; ?>/home/executive-summary-rating",
       method : 'POST',
       data : data,
-      success : function (result) {
-        console.log(result); 
+      success : function(result) {   
+        var resultData = $.parseJSON(result);
+         //alert(resultData.message);
+         if (resultData.message == 'Rating Saved Successfully') 
+         {
+              $('#rating').html(resultData.message);
+              $('#exeicutiveRating').modal('hide');
+              $('#rating').html('');
+              $('#executiverating-rating').val(1);
+              $('#executiverating-note').val('');
+
+         }
+
+        //console.log(resultData); 
       }
     });
-
   });
-
-
 });
 </script>
