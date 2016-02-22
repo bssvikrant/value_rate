@@ -641,11 +641,10 @@ class UsersController extends AppController
 			if (!$userData->errors()){
 				
 				$uid=$session->read('success');
-                print_r($uid);
+
                 if(count($query))
                {
-               	    
-	               echo  $this->displaySuccessMessage("Email is already exists");
+	           	$this->displaySuccessMessage("Email is already exists");
                }
 				else
 				{
