@@ -86,11 +86,17 @@ $(document).ready(function(){
          if (resultData.message == 'Rating Saved Successfully') 
          {
               $('#rating').html(resultData.message);
-              $('#exeicutiveRating').modal('hide');
+              setTimeout(
+              function() 
+              {
+                $('#exeicutiveRating').modal('hide');
               $('#rating').html('');
               $('#executiverating-rating').val(1);
               $('#executiverating-note').val('');
 
+    //do something special
+              }, 3000)
+              
          }
 
         
