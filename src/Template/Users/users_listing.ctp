@@ -1,5 +1,5 @@
 <?php
-
+	
 	//$adminId=$this->Session->read('Admin.id');
 	//$adminType=$this->Session->read('Admin.type');
 ?>
@@ -96,8 +96,8 @@
 								<th class="column-title"><?php echo $this->Paginator->sort('Users.phone', 'Phone')?></th>
 								<th class="column-title"><?php echo $this->Paginator->sort('Users.date_added', 'Added Date')?></th>
 								<th class="column-title"><?php echo $this->Paginator->sort('Users.status', 'Status')?></th>
-								<th class="column-title no-link last"><span class="nobr">Share investments</span>
-								<th class="column-title no-link last"><span class="nobr">View</span>
+								<th class="column-title no-link last"><span class="nobr">Share investments</span></th>
+								<th class="column-title no-link last"><span class="nobr">View</span></th>
 								<th class="column-title no-link last"><span class="nobr">Action</span>
 								</th>
 								
@@ -109,8 +109,9 @@
 						    $i=1;
 						 ?>
 							<?php foreach($users_info as $user_info) { 
-							//echo $user_info->title;
+								
 								if($i%2==0){$class="even pointer";}else{$class="odd pointer";}
+
 							?>
 							<tr class="<?php echo $class; ?>">
 								<td class="a-center "></td>
@@ -122,24 +123,37 @@
 											echo $user_info->phone;
 								?></td>
 								<td class=" "><?php echo date("F j, Y",strtotime($user_info->date_added)); ?></td>
-								 <td><?php echo $user_info->status == 1?'Active':'Inactive';	?></td>
+								 <td><?php echo $user_info->status == 1?'Active':'';	?>
+								 <?php echo $user_info->status == 2?'Tracking':'';	?>
+								<?php echo $user_info->status == 3?' Dormant':'';	?></td>
 								 <td>
 									<a title="share investments" href="<?php echo HTTP_ROOT."users/share_investments/".base64_encode(convert_uuencode($user_info->id));?>"  target="_blank" >Share investments</a>
 								 </td>
 								 <td>
 									<a title="View Profile" href="<?php echo HTTP_ROOT."public-profile/".base64_encode(convert_uuencode($user_info->id));?>"  target="_blank" >View Profile</a>
 								 </td>
-								<?php $target = ['0'=>'1','1'=>'0'];?>
-								<td class=" last">
-								   <a title="<?php echo($user_info->status == 0?'Activate status':'Deactivate Status') ?>" href="<?php echo HTTP_ROOT."users/update-status-row/".'Users'.'/'.base64_encode(convert_uuencode($user_info->id)).'/'.$target[$user_info->status];?>" ><span class="fa fa-fw fa-check-square<?php echo($user_info->status ==0?'-o':'') ?>"></span></a>
-								 
-								  <a title="Edit" href="<?php echo HTTP_ROOT."users/edit-user/".base64_encode(convert_uuencode($user_info->id));?>"><span><i class="fa fa-pencil-square"></i></span></a>
-								   
-								   <a title="Delete" href="<?php echo HTTP_ROOT."users/delete-row/".'Users'.'/'.base64_encode(convert_uuencode($user_info->id));?>" onclick="if(!confirm('Are you sure to delete this Investment?')){return false;}" ><span class="fa fa-fw fa-trash-o"></span></a>
-								</td>
+								
+								<td class=" last"> 
+								<div class="dropdown btn-group">
+									<a class="" data-toggle="dropdown" href="#">
+										<span class="fa fa-fw fa-check-square"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="<?php echo HTTP_ROOT."users/update-status-row/".'Users'.'/'.base64_encode(convert_uuencode($user_info->id)).'/1';?>">Active</a></li>
+										<li><a href="<?php echo HTTP_ROOT."users/update-status-row/".'Users'.'/'.base64_encode(convert_uuencode($user_info->id)).'/2';?>">Tracking</a></li>
+										<li><a href="<?php echo HTTP_ROOT."users/update-status-row/".'Users'.'/'.base64_encode(convert_uuencode($user_info->id)).'/3';?>">Dormant</a></li>
+									</ul>
+								</div>
+							
+								<?php /* <a title="<?php echo($user_info->status == 0?'Activate status':'Deactivate Status') ?>" href="<?php echo HTTP_ROOT."users/update-status-row/".'Users'.'/'.base64_encode(convert_uuencode($user_info->id)).'/'.$target[$user_info->status];?>" ><span class="fa fa-fw fa-check-square<?php echo($user_info->status ==0?'-o':'') ?>"></span></a> */ ?>
+							
+								<a title="Edit" href="<?php echo HTTP_ROOT."users/edit-user/".base64_encode(convert_uuencode($user_info->id));?>"><span><i class="fa fa-pencil-square"></i></span></a>
+
+								<a title="Delete" href="<?php echo HTTP_ROOT."users/delete-row/".'Users'.'/'.base64_encode(convert_uuencode($user_info->id));?>" onclick="if(!confirm('Are you sure to delete this Investment?')){return false;}" ><span class="fa fa-fw fa-trash-o"></span></a> 
+							</td> 
 							</tr>
 							<?php $i++; 
-							} 
+							 } 
 							} else { ?>
 								<tr class="even pointer">
 									<td class="noRecords" colspan="7" style=" text-align:center;"> No records found </td>
