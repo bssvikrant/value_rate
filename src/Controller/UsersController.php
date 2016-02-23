@@ -405,6 +405,7 @@ class UsersController extends AppController
 		if(isset($this->request->data) && !empty($this->request->data)) {
 			
 			$this->request->data['Users']['password']= md5($this->request->data['Users']['org_password']);
+			$this->request->data['Users']['type']='investment';
 			$userData = $UsersModel->newEntity($this->request->data['Users'],['validate' => true, 'associated' => ['UserDetails','UserExecutiveSummaries']]);
 			if (!$userData->errors()){
 				//Upload user image
@@ -525,7 +526,7 @@ class UsersController extends AppController
 			$users_info = $this->Paginator->paginate($UsersModel,[
 			'conditions' => [
 			'Users.id LIKE' => '%'.$data['Users']['id'].'%',
-			'Users.type !' => 'valuerater'],
+			'Users.type' => 'investment'],
 			'limit' => 10,
 			'order' => [
 			'Users.id' => 'asc']]);
