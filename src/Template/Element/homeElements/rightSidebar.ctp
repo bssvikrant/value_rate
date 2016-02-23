@@ -10,13 +10,18 @@ if($userInfo['user_detail']['i_expected_returns']){ $per += 20; }
 ?>
 	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 		<div class="aside-right">
+			<button class="btn btn-info btn-sm ratingmodal" data-target="#investmentRating" data-toggle="modal" exeicutive-id="8" type="button">Add investment rating</button>
 			<div class="business-ratting">
+
 				<div class="businress-area">
 					<div class="row">
+
+						
 						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 							<img class="img-responsive" alt="business-ratting" src="<?php echo HTTP_ROOT ?>img/Home/business-ratting.png">
 						</div>
 						<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+
 							<h3> <span>Business Rating</span> </h3>
 							<h3>Valuerate Score : 10 </h3>
 						</div>

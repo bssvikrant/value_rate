@@ -25,6 +25,7 @@ if($dataCheck=='datafound'){
                                         <li><img src="<?php echo HTTP_ROOT ?>img/Home/loc-icon-3.png" alt=""> <?php echo $userInfo['user_detail']['date_found']; ?></li>
                                     </ul>
                                 </div>
+
                                 <div class="ban-social-area">
                                     <div class="row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -42,6 +43,7 @@ if($dataCheck=='datafound'){
 														<li>
 															<a class="ban-twitter" title="Twitter" href="<?php echo $userInfo['user_detail']['linkedin_url']; ?>"></a>
 														</li>
+
 													<?php } ?>
 													<?php if($userInfo['user_detail']['twitter_url']) { ?>
 														<li>
@@ -100,6 +102,7 @@ if($dataCheck=='datafound'){
                         <!--/Mid Profile Left-->
 					<?php echo $this->element('homeElements/rightSidebar'); ?>
                     <?php include('inc.modal.addrating.php'); ?>
+                    <?php include('inv.modal.addrating.php'); ?>
                 </div>
                 </div>
 
