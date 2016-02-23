@@ -521,7 +521,7 @@ class UsersController extends AppController
 		//for searching 
 		if(!empty($_GET['data']) && isset($_GET['data'])){
 	
-			
+		
 			$data = $_GET['data'];
 			$users_info = $this->Paginator->paginate($UsersModel,[
 			'conditions' => [
@@ -534,10 +534,12 @@ class UsersController extends AppController
 
 			 $users_info = $this->Paginator->paginate($UsersModel,[ 'limit' => 200,
 			'conditions' => [
-			'Users.type != ' => 'valuerater'],
+			'Users.type' => 'investment'],
 			'order' => [
 			'Users.id' => 'asc']]);
+
 		}
+		
 		$this->set('users_info',$users_info);
 	}
 	/**
