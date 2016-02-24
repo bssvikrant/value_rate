@@ -1,4 +1,4 @@
-<!--Mid Profile Right-->
+Mid Profile Right-->
 <?php 
 // investment percentage
 $per = 0;
@@ -10,13 +10,11 @@ if($userInfo['user_detail']['i_expected_returns']){ $per += 20; }
 ?>
 	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 		<div class="aside-right">
-			<button class="btn btn-info btn-sm ratingmodal" data-target="#investmentRating" data-toggle="modal" exeicutive-id="8" type="button">Add investment rating</button>
+			<button class="btn btn-info btn-sm ratingmodal" data-target="#investmentRating" data-toggle="modal"  type="button">Add investment rating</button>
 			<div class="business-ratting">
 
 				<div class="businress-area">
 					<div class="row">
-
-						
 						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 							<img class="img-responsive" alt="business-ratting" src="<?php echo HTTP_ROOT ?>img/Home/business-ratting.png">
 						</div>
@@ -173,4 +171,4 @@ if($userInfo['user_detail']['i_expected_returns']){ $per += 20; }
 		</div>
 	</div>
 </div>
-                    <!--/Mid Profile Right-->
+                    <!--/Mid Profile Right
