@@ -76,7 +76,6 @@ class HomeController extends AppController
 			return false;
 		}	
 	}
-	
 	/**
 	* Function of user login
 	*/
@@ -97,7 +96,7 @@ class HomeController extends AppController
 				$session = $this->request->session();
 				$email = trim($this->request->data['email']);
 				$password = md5(trim($this->request->data['password']));
-				$getValidUserData = $UsersModel->find('all')->where(['Users.email' => $email, 'Users.password' => $password, 'Users.status' => 1 ])->toArray();
+				$getValidUserData = $UsersModel->find('all')->where(['Users.email' => $email, 'Users.password' => $password, 'Users.status' => 1])->toArray();
 				
 				if(count($getValidUserData))
 				{	$getValidUserData = $getValidUserData[0];
@@ -133,9 +132,8 @@ class HomeController extends AppController
 		if($userId==NULL){	
 			$userId = 	$session->read('User');
 			$userId = $userId['id'];
-		}
-		
-		$userInfo='';
+		}		
+		  $userInfo='';
 		if($userId){ 
 			$UsersModel = TableRegistry::get('Users');
 			$userCount = $UsersModel->find('all')->where(["id"=>$userId])->count();
@@ -144,6 +142,7 @@ class HomeController extends AppController
 				$userInfo = $UsersModel->get($userId, [ 'contain' => ['UserDetails','UserMembers','UserExecutiveSummaries','UserFundingMaterials']])->toArray();
 				$this->set('userInfo',$userInfo);
 				$this->set('dataCheck','datafound');
+			    $this->set('investmentId',$userId);
 			}else{
 				$this->set('dataCheck','datanotfound');
 			}
@@ -153,8 +152,6 @@ class HomeController extends AppController
 			return $this->redirect(['controller' => 'Home', 'action' => 'login']);
 		}
 	}
-
-
 	/**
 	Function for admin change password
 	*/
@@ -197,7 +194,6 @@ class HomeController extends AppController
 			}
 		}
 	}
-	
 	/**Function for forgot password
 	*/
 	function forgotPassword(){
@@ -932,6 +928,31 @@ class HomeController extends AppController
 			die;
 		}
 	}
+	public function InvestmentRating() {
+
+		$InvestmentRatingsModel = TableRegistry::get('InvestmentRatings');
+
+		if (isset($this->request->data) && !empty($this->request->data)) {
+			/*$findRating = $InvestmentRatingsModel->find('all')
+					->where(['executive_id' => $this->request->data['executive_id'], 'user_id' => $this->request->data['user_id']])
+					->toArray();
+			if(count($findRating)){
+				$this->request->data['id'] = $findRating[0]->id;
+			}*/
+			
+			$ratingData = $InvestmentRatingsModel->newEntity($this->request->data);
+			 //print_r($ratingData); 
+			if ($InvestmentRatingsModel->save($ratingData)) {
+
+				echo json_encode(array('message'=>"Rating Saved Successfully"));
+
+			} else {
+				echo json_encode(array('message'=>"Something Went Wrong Try again later"));
+			}
+			die;
+		}
+	}
+
 
 
 	/**

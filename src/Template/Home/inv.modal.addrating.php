@@ -51,7 +51,7 @@
 				<!--span aria-hidden="true" class="fa fa-globe form-control-feedback right"></span-->
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
-			<button type="button" placeholder="Button" class="form-control" id="submitRating">Submit Rating</button>
+			<button type="button" placeholder="Button" class="form-control" id="submitRatingInvester">Submit Rating</button>
 				<!--span aria-hidden="true" class="fa fa-globe form-control-feedback right"></span-->
 			</div>
         </div>

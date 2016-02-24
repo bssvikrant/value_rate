@@ -41,6 +41,7 @@
 <?php 
   $session = $this->request->session();
   $userData  = $session->read('User');
+
 ?>
 <script type="text/javascript">
 // Template/Layout/home.ctp
@@ -48,11 +49,12 @@
 $(document).ready(function(){
   var userId = "<?php echo $userData['id']; ?>";
  
-  var executiveId;
+  var executiveId,investmentId;
   $('.ratingmodal').click(function(e){
     executiveId = $(this).attr('exeicutive-id');
+    investmentId = $(this).attr('investment-id');
    
-    var exeData = {executive_id:executiveId, user_id:userId};
+    var exeData = {executive_id:executiveId, executive_id:investmentId, user_id:userId };
     
     $.ajax({
       url : "<?php echo HTTP_ROOT; ?>/home/get-executive-summary-rating",
@@ -70,6 +72,7 @@ $(document).ready(function(){
 
     });
   });
+
   $('#submitRating').click(function(e){
 
     var rating = $('#executiverating-rating').val();
@@ -95,11 +98,41 @@ $(document).ready(function(){
               $('#executiverating-note').val('');
 
     //do something special
+              }, 3000)              
+         }       
+      }
+    });
+  });
+   $('#submitRatingInvester').click(function(e){
+    var diligence = $('#investmentrating-diligence').val();
+    var rating = $('#investmentrating-rating').val();
+    var note = $('#investmentrating-note').val();
+    
+    var investmentId = '<?php echo $investmentId; ?>';
+    
+    var data = {investment_id:investmentId, user_id:userId, diligence:diligence, rating:rating, note:note};
+
+    $.ajax({
+      url : "<?php echo HTTP_ROOT; ?>/home/investmentRating",
+      method : 'POST',
+      data : data,
+      success : function(result) {   
+        var resultData = $.parseJSON(result);         
+         if (resultData.message == 'Rating Saved Successfully') 
+         {
+              $('#rating').html(resultData.message);
+              setTimeout(
+              function() 
+              {
+              $('#investmentRating').modal('hide');
+              $('#rating').html('');
+              $('#investmentrating-rating').val(1);
+              $('#investmentrating-note').val('');
+
+    //do something special
               }, 3000)
               
          }
-
-        
       }
     });
   });
